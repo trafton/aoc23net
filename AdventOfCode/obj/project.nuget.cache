@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "wA7gHc+MNrJ62eH56FmwSwzB1yCpyXMDee3Ujih1tLICekH/TlOYBVNRzD04JjkBME9qJ7gnWrDhN8MAc8JJsQ==",
+  "success": true,
+  "projectFilePath": "/Users/trafton/dev/aoc/AdventOfCode.Template-main/AdventOfCode/AdventOfCode.csproj",
+  "expectedPackageFiles": [
+    "/Users/trafton/.nuget/packages/aochelper/3.1.0/aochelper.3.1.0.nupkg.sha512",
+    "/Users/trafton/.nuget/packages/spectre.console/0.48.0/spectre.console.0.48.0.nupkg.sha512",
+    "/Users/trafton/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}
