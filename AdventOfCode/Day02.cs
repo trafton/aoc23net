@@ -137,8 +137,10 @@ public class Day02 : BaseDay
 
     public override ValueTask<string> Solve_2()
     {
-        var games = _input.Split("\n").Select(GameParser.ParseGame).ToList();
-        var res =games.Select(GamePowerCalculator.CalculatePower).Sum(p=> p.Power);
+        var res =_input.Split("\n")
+                            .Select(GameParser.ParseGame)
+                            .Select(GamePowerCalculator.CalculatePower)
+                            .Sum(p=> p.Power);
 
         return new ValueTask<string>(res.ToString());
     }
